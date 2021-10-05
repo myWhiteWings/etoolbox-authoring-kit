@@ -1,0 +1,13 @@
+<sly data-sly-use.data="com.exadel.aem.toolkit.samples.models.NumericComponent"></sly>
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"></sly>
+<sly data-sly-call="${clientlib.css @ categories='etoolbox-authoring-kit.samples.components'}"></sly>
+
+<div class="numeric-component">
+    <div class="numeric-component-title">
+        <span>Numeric <br>Component</span>
+    </div>
+    <p>Picked numbers: ${data.num1}, ${data.num2}</p>
+    <p>Date picking: ${data.selectDate1   ||"01.01.1990"}</p>
+    <p>Time picking: ${data.selectDate2   ||"00:00"}</p>
+    <p>Date&Time picking: ${data.selectDate3   ||"01.01.1990 00:00"}</p>
+</div>

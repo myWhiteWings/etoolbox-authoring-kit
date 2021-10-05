@@ -4,7 +4,7 @@ body {
 }
 
 .page-header {
-    background-color: cornflowerblue;
+    background-color: gray;
     height: 100px;
     width: 100%;
     display: flex;
@@ -15,4 +15,8 @@ body {
 .page-title {
     text-size: 2.5rem;
     color: white;
+}
+
+.component-wrap{
+height: 100%;
 }

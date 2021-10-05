@@ -2,10 +2,27 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
           jcr:primaryType="cq:Page" xmlns:cq="http://www.day.com/jcr/cq/1.0">
     <jcr:content
-            jcr:primaryType="cq:PageContent"
-            jcr:title="EToolbox Authoring Kit Samples - Page"
-            sling:resourceType="etoolbox-authoring-kit/samples/components/page/sample-page"
-            cq:designPath="/apps/settings/wcm/designs/etoolbox-authoring-kit-samples">
+        jcr:primaryType="cq:PageContent"
+        jcr:title="EToolbox Authoring Kit Samples - Page"
+        sling:resourceType="etoolbox-authoring-kit/samples/components/page/sample-page"
+        cq:designPath="/apps/settings/wcm/designs/etoolbox-authoring-kit-samples">
+        <primitiveBar jcr:primaryType="nt:unstructured" sling:resourceType="etoolbox-authoring-kit/samples/components/content/primitive-bar-component">
+            <alertComponent jcr:primaryType="nt:unstructured" sling:resourceType="etoolbox-authoring-kit/samples/components/content/alert-component"/>
+            <buttonComponent jcr:primaryType="nt:unstructured" sling:resourceType="etoolbox-authoring-kit/samples/components/content/button-component"/>
+            <colorComponent jcr:primaryType="nt:unstructured" sling:resourceType="etoolbox-authoring-kit/samples/components/content/color-component"/>
+            <dropdownComponent jcr:primaryType="nt:unstructured" sling:resourceType="etoolbox-authoring-kit/samples/components/content/dropdown-component"/>
+            <insertionComponent jcr:primaryType="nt:unstructured" sling:resourceType="etoolbox-authoring-kit/samples/components/content/insertion-component"/>
+            <numericComponent jcr:primaryType="nt:unstructured" sling:resourceType="etoolbox-authoring-kit/samples/components/content/numeric-component"/>
+            <switchComponent jcr:primaryType="nt:unstructured" sling:resourceType="etoolbox-authoring-kit/samples/components/content/switch-component"/>
+            <textFieldsComponent jcr:primaryType="nt:unstructured" sling:resourceType="etoolbox-authoring-kit/samples/components/content/text-fields-component"/>
+        </primitiveBar>
+        <dependsOnBar jcr:primaryType="nt:unstructured" sling:resourceType="etoolbox-authoring-kit/samples/components/content/dependson-bar-component">
+            <DependsOnSimpleBindingsComponent jcr:primaryType="nt:unstructured" sling:resourceType="etoolbox-authoring-kit/samples/components/content/dependson-simple-bindings-component"/>
+            <DependsOnConditionComponent jcr:primaryType="nt:unstructured" sling:resourceType="etoolbox-authoring-kit/samples/components/content/dependson-condition-component"/>
+            <DependsOnFunctionsComponent jcr:primaryType="nt:unstructured" sling:resourceType="etoolbox-authoring-kit/samples/components/content/dependson-functions-component"/>
+            <DependsOnMultiFieldComponent jcr:primaryType="nt:unstructured" sling:resourceType="etoolbox-authoring-kit/samples/components/content/dependson-multifield-component"/>
+        </dependsOnBar>
     </jcr:content>
+
 </jcr:root>
 

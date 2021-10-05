@@ -1,0 +1,40 @@
+.color-component-wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.color-title{
+    font-size:x-large;
+    text-align: left;
+    background: #4b4b4b;
+    color: #ede8e2;
+    padding: 0.5rem;
+    border-radius: 7px;
+}
+
+.color-item{
+    border: 1px #4b4b4b;
+    padding-left: 3rem;
+    display: inline-flex;
+}
+.color-value{
+    text-align: center;
+    padding-right: 1rem;
+}
+.color-item-title{
+    text-align: center;
+}
+
+.color-square {
+    display: inline-flex;
+    height: 20px;
+    width: 20px;
+    border-radius: 12px;
+}
+.color-unit{
+    margin-top: 5px;
+    border: solid black;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 3px;
+}

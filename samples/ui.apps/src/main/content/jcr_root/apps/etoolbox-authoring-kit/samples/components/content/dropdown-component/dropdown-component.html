@@ -1,0 +1,10 @@
+<sly data-sly-use.data="com.exadel.aem.toolkit.samples.models.DropdownComponent"></sly>
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"></sly>
+<sly data-sly-call="${clientlib.all @ categories='etoolbox-authoring-kit.samples.components'}"></sly>
+
+<div class="dropdown-component">
+    <div class="dropdown-component-title">Dropdown <br> Сomponent</div>
+    <div class="dropdown-component-select"><p>Selected variant: ${data.variantsSelect||"Not choosen yet variant"}</p></div>
+    <div class="dropdown-component-radio"><p>Radio buttons: ${data.radioButton}</p></div>
+</div>
+

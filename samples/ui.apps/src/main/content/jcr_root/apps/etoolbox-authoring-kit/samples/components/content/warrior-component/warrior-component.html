@@ -3,10 +3,14 @@
 <sly data-sly-call="${clientlib.css @ categories='etoolbox-authoring-kit.samples.components'}"></sly>
 
 <div class="warrior-component-wrap ${data.colorTheme}">
-    <h1 class  ="warrior-component-title">${data.title || 'Create your warrior' @ context='text'}</h1>
     <div class="warrior-header">
-        <span class="warrior-header-name">${data.name || 'The Guy' @ context='text'}</span>
-        <img class="warrior-header-icon" src="${data.photo @ context='uri'}">
+        <div class="warrior-header-name">
+            Primitive Components Bar
+        </div>
     </div>
-    <div class="warrior-components-wrap" data-sly-resource="${'./parsys/' @ resourceType='wcm/foundation/components/parsys'}"></div>
+    <div class="warrior-components-wrap">
+        <div><sly data-sly-resource="${'alertComponent'}"/></div>
+        <div><sly data-sly-resource="${'buttonComponent'}"/></div>
+
+    </div>
 </div>

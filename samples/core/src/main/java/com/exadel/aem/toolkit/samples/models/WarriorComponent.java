@@ -38,6 +38,10 @@ import com.exadel.aem.toolkit.api.annotations.widgets.attribute.Attribute;
 import com.exadel.aem.toolkit.samples.constants.GroupConstants;
 import com.exadel.aem.toolkit.samples.constants.PathConstants;
 
+import javax.inject.Inject;
+import java.util.ArrayList;
+import java.util.List;
+
 @AemComponent(
     path = "content/warrior-component",
     title = "Warrior Component",
@@ -64,7 +68,7 @@ import com.exadel.aem.toolkit.samples.constants.PathConstants;
     }
 )
 @ChildEditConfig(
-    actions = "copymove"
+    actions = "edit"
 )
 @Tabs(
     value = {
@@ -96,11 +100,6 @@ public class WarriorComponent {
     @ValueMapValue
     private String title;
 
-    @DialogField(label = LABEL_NAME)
-    @TextField(emptyText = WarriorComponent.DEFAULT_NAME)
-    @ValueMapValue
-    private String name;
-
     @DialogField(label = LABEL_PHOTO)
     @PathField(
         emptyText = "Face",
@@ -119,10 +118,6 @@ public class WarriorComponent {
 
     public String getTitle() {
         return StringUtils.defaultIfBlank(title, DEFAULT_TITLE);
-    }
-
-    public String getName() {
-        return StringUtils.defaultIfBlank(name, DEFAULT_NAME);
     }
 
     public String getPhoto() {

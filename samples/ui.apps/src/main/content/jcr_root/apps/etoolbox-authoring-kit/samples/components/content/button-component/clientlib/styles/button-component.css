@@ -1,0 +1,13 @@
+.button-component-wrap {
+    height: 100%;
+    width: 100%;
+}
+
+.button-component-title {
+    font-size:x-large;
+    text-align: left;
+    background: #4b4b4b;
+    color: #ede8e2;
+    padding: 0.5rem;
+    border-radius: 7px;
+}

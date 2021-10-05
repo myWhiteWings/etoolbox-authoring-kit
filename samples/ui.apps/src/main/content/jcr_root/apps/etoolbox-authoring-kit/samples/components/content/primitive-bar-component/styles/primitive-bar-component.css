@@ -1,0 +1,70 @@
+.primitive-bar-component {
+    min-width: 100%;
+}
+
+.primitive-bar-component-wrap, .dark-theme {
+    /*padding-bottom: 2rem;*/
+    border-bottom: 7px solid #808080;
+}
+
+.primitive-bar-component-wrap .newpar {
+    min-width: 200px;
+}
+
+.primitive-bar-component-wrap {
+    background: white;
+    color: black;
+    border-bottom: 7px solid #808080;
+}
+
+.dark-theme {
+    background: #373c6e;
+    color: white;
+}
+
+.primitive-bar-components-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+.primitive-bar {
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    background: whitesmoke;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.dark-theme .primitive-bar-components-wrap {
+    border: 1px solid white;
+}
+
+.primitive-bar-component-title {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.primitive-bar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primitive-bar-header-name {
+    font-size: 2rem;
+    margin-right: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.primitive-bar-header-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 1px solid darkgray;
+}

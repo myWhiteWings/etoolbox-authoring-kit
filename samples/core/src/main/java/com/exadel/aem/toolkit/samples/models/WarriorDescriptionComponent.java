@@ -76,7 +76,7 @@ import com.exadel.aem.toolkit.samples.utils.ListUtils;
     extraClientlibs = "etoolbox-authoring-kit.samples.authoring"
 )
 @DependsOnTab(tabTitle = WarriorDescriptionComponent.TAB_FRUIT, query = "@likesFruit")
-@DependsOnTab(tabTitle = WarriorDescriptionComponent.TAB_MOVIES, query = "@likesMovies")
+    @DependsOnTab(tabTitle = WarriorDescriptionComponent.TAB_MOVIES, query = "@likesMovies")
 @Tabs(
     value = {
         @Tab(title = WarriorDescriptionComponent.TAB_MAIN),

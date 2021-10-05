@@ -1,0 +1,71 @@
+.dependson-bar-component {
+    min-width: 100%;
+}
+
+.dependson-bar-component-wrap, .dark-theme {
+    /*padding-bottom: 2rem;*/
+    border-bottom: 7px solid #808080;
+}
+
+.dependson-bar-component-wrap .newpar {
+    min-width: 200px;
+}
+
+.dependson-bar-component-wrap {
+    background: white;
+    color: black;
+    border-bottom: 7px solid #808080;
+}
+
+.dark-theme {
+    background: #373c6e;
+    color: white;
+}
+
+.dependson-bar-components-wrap {
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: start;
+    padding: 1rem;
+    background: whitesmoke;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+/*.dependson-bar-components-wrap {*/
+/*    border: 1px solid black;*/
+/*}*/
+
+/*.dark-theme .dependson-bar-components-wrap {*/
+/*    border: 1px solid white;*/
+/*}*/
+
+.dependson-bar-component-title {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.dependson-bar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dependson-bar-header-name {
+    font-size: 2rem;
+    margin-right: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dependson-bar-header-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 1px solid darkgray;
+}

@@ -1,0 +1,10 @@
+<sly data-sly-use.data="com.exadel.aem.toolkit.samples.models.InsertionComponent"></sly>
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"></sly>
+<sly data-sly-call="${clientlib.css @ categories='etoolbox-authoring-kit.samples.components'}"></sly>
+
+<div class="insertion-component-wrap">
+    <div class="insertion-component-title">
+        <span>Insertion <br>Component</span>
+    </div>
+    <img class="insertion-component-image" src="${data.image @ context='uri'}">
+</div>

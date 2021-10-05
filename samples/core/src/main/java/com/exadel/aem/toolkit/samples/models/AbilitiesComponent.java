@@ -48,7 +48,8 @@ import com.exadel.aem.toolkit.samples.constants.PathConstants;
     componentGroup = GroupConstants.COMPONENT_GROUP
 )
 @Dialog(
-    extraClientlibs = "authoring-toolkit.samples.authoring"
+    extraClientlibs = "authoring-toolkit.samples.authoring",
+    helpPath = ""
 )
 @Model(adaptables = Resource.class, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class AbilitiesComponent {
@@ -70,8 +71,8 @@ public class AbilitiesComponent {
         options = {
             @Option(
                 selected = true,
-                text = "Intelligence",
-                value = "intelligence"
+                text = "Intelligence", //list element
+                value = "intelligence" //crx component value
             ),
             @Option(
                 text = "Strength",
