@@ -12,7 +12,7 @@
 
 .warrior-component-wrap {
     background: white;
-    color: #4a65a5;
+    color: black;
 }
 
 .dark-theme {
@@ -24,12 +24,12 @@
     position: relative;
     height: 400px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1rem;
+    justify-content: start;
     padding: 1rem;
-    overflow-x: auto;
+    background: whitesmoke;
+    overflow-x: hidden;
     overflow-y: hidden;
+
 }
 
 .warrior-components-wrap {
@@ -50,12 +50,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
 }
 
 .warrior-header-name {
     font-size: 2rem;
     margin-right: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .warrior-header-icon {

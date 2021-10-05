@@ -1,0 +1,18 @@
+.alert-component-wrap {
+    height: 100%;
+    width: 100%;
+}
+.alert-component parbase {
+    width: 45%;
+    height: 100%;
+    padding: 5px;
+}
+
+.alert-component-title {
+    font-size:x-large;
+    text-align: left;
+    background: #4b4b4b;
+    color: #ede8e2;
+    padding: 0.5rem;
+    border-radius: 7px;
+}

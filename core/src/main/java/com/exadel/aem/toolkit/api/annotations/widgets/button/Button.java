@@ -61,7 +61,7 @@ public @interface Button {
 
     /**
      * When set to a non-blank string, maps to the {@code formId} attribute of this Granite UI component's node.
-     * Used to identify the {@code form} this button is bound to
+     * Used to identify the {@code form}c this button is bound to
      * @return String value
      */
     String formId() default "";

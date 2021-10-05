@@ -1,0 +1,21 @@
+<sly data-sly-use.data="com.exadel.aem.toolkit.samples.models.PrimitiveBarComponent"></sly>
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"></sly>
+<sly data-sly-call="${clientlib.css @ categories='etoolbox-authoring-kit.samples.components'}"></sly>
+
+<div class="primitive-bar-component-wrap ${data.colorTheme}">
+    <div class="primitive-bar-header">
+        <div class="primitive-bar-header-name">
+            Primitive Components Bar
+        </div>
+    </div>
+    <div class="primitive-bar">
+        <div class="primitive-bar-components-wrap"><sly data-sly-resource="${'alertComponent'}"/></div>
+        <div class="primitive-bar-components-wrap"><sly data-sly-resource="${'buttonComponent'}"/></div>
+        <div class="primitive-bar-components-wrap"><sly data-sly-resource="${'colorComponent'}"/></div>
+        <div class="primitive-bar-components-wrap"><sly data-sly-resource="${'dropdownComponent'}"/></div>
+        <div class="primitive-bar-components-wrap"><sly data-sly-resource="${'insertionComponent'}"/></div>
+        <div class="primitive-bar-components-wrap"><sly data-sly-resource="${'numericComponent'}"/></div>
+        <div class="primitive-bar-components-wrap"><sly data-sly-resource="${'switchComponent'}"/></div>
+        <div class="primitive-bar-components-wrap"><sly data-sly-resource="${'textFieldsComponent'}"/></div>
+    </div>
+</div>
